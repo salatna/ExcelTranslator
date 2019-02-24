@@ -6,3 +6,6 @@ Translates Excel cells with Azure Congitive Services
 2. Generate API key
 3. Set the key to `Const ACCOUNT_KEY` at `Translator::GetAccessToken`
 4. Set target language to `sLanguageTo` in `Main::translate`
+
+## Troubleshoot
+1. Use `Const DEBUG` at `Translator`
